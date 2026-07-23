@@ -28,8 +28,9 @@ export const metadata: Metadata = {
     images: ["/og.png"],
   },
   icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
+    icon: [{ url: "/sikalink-main.png", type: "image/png" }],
+    shortcut: "/sikalink-main.png",
+    apple: "/sikalink-main.png",
   },
 };
 
